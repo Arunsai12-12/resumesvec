@@ -12,7 +12,7 @@ function loadJSON(file,callback){
 loadJSON("data.json",function(text){
   let data=JSON.parse(text);
   console.log(data);
-  career(data.carrier);
+  career(data);
 })
 var right=document.querySelector(".content");
 function career(car){
@@ -23,7 +23,8 @@ function career(car){
   var hr=document.createElement("hr");
     right.appendChild(hr);
   var p=document.createElement("p");
-      p.textContent=car.info;
+      p.textContent=car.carrier.info;
       right.appendChild(p);
+    console.log(car.education);
 
 }

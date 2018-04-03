@@ -1,5 +1,22 @@
 {
   "carrier":{
         "info":"To establishing MultiNationary Company "
+    },
+    "education":[{
+      "Degree" : "SSC",
+      "School" : "Krishna teja public school",
+      "Data"  : ["2013","82%"]
+    },
+    {
+      "Degree" : "Intermediate",
+      "School" : "Sri Chaitanya junior school",
+      "Data"  : ["2015","91%"]
+    },
+    {
+      "Degree" : "B-Tech",
+      "School" : "Sree Vidyanikethan Engineering college",
+      "Data"  : ["2018","75%"]
     }
+    ]
+
 }
