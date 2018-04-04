@@ -97,3 +97,21 @@ a{
   border-bottom-right-radius: 50px;
 }
 }
+table,tr,td
+	{
+		border:2px solid orange;
+	}
+	table
+	{
+		border-collapse:collapse;
+		width:20%;
+	}
+	td
+	{
+		height:40px;
+	}
+	tr
+	{
+		background-color:green;
+		color:white;
+	}

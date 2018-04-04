@@ -2,21 +2,45 @@
   "carrier":{
         "info":"To establishing MultiNationary Company "
     },
-    "education":[{
+    "education":[
+      {
       "Degree" : "SSC",
       "School" : "Krishna teja public school",
       "Data"  : ["2013","82%"]
-    },
-    {
+      },
+      {
       "Degree" : "Intermediate",
       "School" : "Sri Chaitanya junior school",
       "Data"  : ["2015","91%"]
-    },
-    {
+      },
+      {
       "Degree" : "B-Tech",
       "School" : "Sree Vidyanikethan Engineering college",
       "Data"  : ["2018","75%"]
-    }
+      }
+    ],
+    "skills":[
+      {
+        "name":"operating system",
+        "info":["windows","linus"]
+      },
+      {
+        "name":"programing Languages",
+        "info":["c","c++","java","python"]
+      },
+      {
+        "name":"Databases",
+        "info":["mysql","oracle"]
+      },
+      {
+        "name":"Web-technology",
+        "info":["html","css","javascript","php"]
+      },
+      {
+        "name":"frame-Work",
+        "info":["Bootstrap",".net"]
+      }
     ]
+
 
 }
